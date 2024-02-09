@@ -1,4 +1,8 @@
+This is a small modification of the package for a project.  You probably do not want to use this version.
+
 # amath
+
+
 
 `amath` is a parser which converts [AsciiMath] to [MathML]. It uses the
 [leg parser generator][peg]. It is written so it may be ported to other
