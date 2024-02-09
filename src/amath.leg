@@ -23,7 +23,7 @@
 Start	= e0:Expr EOF	{ ((struct peg_data*) yy->data)->result->text = strdup(e0->text); free_node(e0); }
 	| < .+ > EOF	{ ((struct peg_data*) yy->data)->result->text = merror(yytext); }
 
-EOF	= "\n;;" | !.
+EOF	=  !.
 -	= [ \t\n]*
 
 Expr	= - c0:E
