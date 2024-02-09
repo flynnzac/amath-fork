@@ -1,4 +1,4 @@
-This is a small modification of the package for a project.  You probably do not want to use this version.
+# This is a small modification of the package for a project.  You probably do not want to use this version.
 
 # amath
 
